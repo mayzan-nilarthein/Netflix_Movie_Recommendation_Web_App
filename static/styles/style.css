@@ -1,0 +1,154 @@
+* {
+    font-family: 'Neuton';
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden; 
+  }
+  
+  
+.container-fluid {
+    margin-top: 2px;  
+}
+.welcome-text {
+    text-align: center;
+    font-weight: bolder;
+    color: #000973;
+    transition-delay: 3s;
+}
+
+.welcome-text> span {
+    color: #E50914;
+}
+
+.input-section,form {
+    /* margin:10% auto; */
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.form-group {
+    width: 400px;
+}
+
+.form-group>label {
+    bottom: 34px;
+    left: 15px;
+    position: relative; 
+    /* width: 500px; */
+    background-color: white;
+    padding: 0px 5px 0px 5px; 
+    font-size: 1.1em; 
+    transition: 0.2s;
+    pointer-events: none;
+    color: #adadad;
+  } 
+
+input[type="text"] {
+      width: 400px;
+      font-size: 1.2em;
+      font-weight: 300;
+}
+
+.form-control:focus~label {
+    bottom: 55px;
+}
+  
+.form-control:valid~label {
+    bottom: 55px;
+}
+
+.recommand-btn {
+    margin-top: -28px;
+   margin-left: 5px;
+   color: #E50914;
+   border-color: #E50914;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+.recommand-btn:hover {
+    background-color: #E50914;
+    transition: -.2s;
+    color: #fff;
+}
+
+.icon-flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-flex> img {
+    height: 40px;
+    width: 40px;
+}
+
+/* ==========output secttion================= */
+.result {
+    /* background-color: rgb(248, 196, 235); */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #c9ccf1;
+   border-radius: 4px;
+   width: 1100px;
+   margin: -14px auto;
+   padding: 10px 10px;
+}
+.result>h4 {
+    color: #E50914;
+    font-weight: bold;
+    text-align: center;
+}
+table {
+    width: 900px;
+    color: #000973;
+    text-align: justify;
+}
+td, tr, th{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+th {
+    font-size: 1em;
+    text-shadow: 2px 2px 2px #adadad;
+    border-bottom: 2px solid #606060;  
+}
+
+.result2 {
+    color: #606060;
+    font-size: large;
+    font-weight: bold;
+}
+
+.result2> span {
+    color: #E50914;
+}
+
+.feedback {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #f4f6fd;
+    font-size: 19px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #000973; 
+}
